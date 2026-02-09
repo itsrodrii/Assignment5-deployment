@@ -1,0 +1,33 @@
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item-img {
+  width: 100px;
+  height: auto;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.cart-item-controls button {
+  padding: 0.25rem 0.5rem;
+}
+
+.remove-btn {
+  background: none;
+  color: crimson;
+  border: none;
+  cursor: pointer;
+}

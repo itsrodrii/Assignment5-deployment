@@ -1,0 +1,67 @@
+.product-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: #020617;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.4;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: auto;
+  color: #020617;
+}
+
+.hero-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.hero-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: different color for Remove from Cart. Used help of AI.*/
+.hero-btn.remove {
+  background-color: #dc3545;
+}
+
+.hero-btn.remove:hover {
+  background-color: #c82333;
+}
